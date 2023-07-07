@@ -1,0 +1,18 @@
+
+
+<div class="product">
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-3 col-md-6 col-sm-6 col-xs-6" *ngFor="let item of products">
+                <div class="card" >
+                    <img src="{{item.image}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">{{item.title}}</h5>
+                    <a href="#" class="btn btn-primary">Add To Card</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
